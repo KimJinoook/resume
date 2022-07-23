@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: 김진욱
-title: Your job title
+title: 사람과 함께할 때 재미와 행복을 느끼는 개발자 김진욱 입니다.
 email: kimjin0132@naver.com
 # email_title: Email (Email title override)
 phone: 010-3084-3045
@@ -53,13 +53,13 @@ github_username:  KimJinoook
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  Java, Spring 기반의 개발자로 이젠 아카데미 자바 웹 개발자 교육을 이수하며 성적 최우수상을 수상하였습니다. 두번의 프로젝트를 진행하며 <mark>팀장</mark>의 역할을 맡아
+  팀원들의 기술역량을 최대로 발휘할 수 있도록 업무분담, 효율적인 진행 계획을 고민했던 경험이 있습니다.<br/><br/>
+  문제해결을 위해 고민하는 것을 좋아합니다. 원하는 결과를 도출하기 위해 로직처리를 고민하는 것에서 퍼즐을 푸는 것과 같은 재미를 느낍니다.
+  이전에 겪었던 오류와 해결방법을 기록으로 남겨, 해당 경험을 토대로 어제보다 발전한 개발자가 되도록 노력하고 있습니다.<br/><br/>
+  새로운 기술에 도전하는 것을 좋아합니다. Three.js를 이용하여 사용자와 교감할 수 있는 웹사이트를 만든 경험이 있습니다. 능동적이고 적극적인 자세로
+  새로운 것을 배우며 발전을 위해 뛰어듭니다. 이러한 점을 바탕으로 변화하는 환경에 빠르게 적응하고 배우는 개발자가 되겠습니다.
+  
 
 content:
   - title: Projects # Title for the section
@@ -141,7 +141,34 @@ content:
   #        Short description of the company (optional)
   #      description: | # this will include new lines to allow paragraphs
   #        Description of role
-          
+  - title: Skill
+    layout: list
+    content:
+      - layout: left
+        name: Backend
+        description: | # this will include new lines to allow paragraphs
+          * Java, Groovy, NodeJS (TypeScript),
+          * Spring Boot, Spring MVC, Spring Batch, Spring Security
+          * TypeORM, JPA, Querydsl, Hibernate
+          * Jest, Supertest, Junit4/5, Mockito, Spock
+          * Gradle, Maven
+          * Eclipse, SpringToolSuite4, Visual Studio Code
+      - layout: left
+        name: DevOps
+        description: | # this will include new lines to allow paragraphs
+          * MySQL, MariaDB, PostgreSQL
+          * Jenkins, TravisCI, AWS Code Deploy
+          * AWS Beanstalk, AWS SQS, Elastic Cache (Redis), RDS (Aurora), S3, EC2, Cloud Watch
+          * Nginx, Tomcat
+          * Pinpoint, Ngrinder
+          * Linux Centos
+      - layout: left
+        name: Frontend
+        description: | # this will include new lines to allow paragraphs
+          * ES6
+          * Npm, Grunt, Webpack
+          * Handlebars, Lodash
+          * Backbone          
           
           
   - title: Education
