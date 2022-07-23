@@ -81,7 +81,7 @@ content:
         #    icon: fab fa-github
         #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-           
+           소상공인의 메타버스 진출을 돕기 위한 크리에이터 - 소상공인 연결 플랫폼
         description: | # this will include new lines to allow paragraphs
           Description about the work on/with the project
           
@@ -90,10 +90,10 @@ content:
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: 이젠 먹으러 갑니다
-        link: https://github.com/KimJinoook/metaus
-        link_text: github.com/KimJinoook/metaus
+        link: https://github.com/KimJinoook/EZEN_SEMI_2
+        link_text: github.com/KimJinoook/EZEN_SEMI_2
         sub_title: 팀장
-        caption: 2022.05.30 ~ 2022.07.18
+        caption: 2022.05.09 ~ 2022.05.27
         #additional_links:
         #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
         #    icon: fab fa-github
@@ -102,41 +102,66 @@ content:
         #    icon: fab fa-github
         #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-           
+           코로나로 위축된 외식산업 활성화를 위한 맛집 리스트 사이트
+        description: | # this will include new lines to allow paragraphs
+          Description about the work on/with the project
+          
+          
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: POS & mobile order
+        link: https://github.com/KimJinoook/semiProject_POSandMobileOrder
+        link_text: github.com/KimJinoook/pos
+        sub_title: 개인프로젝트
+        caption: 2022.04.07 ~ 2022.04.26
+        #additional_links:
+        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #    icon: fab fa-github
+        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #    icon: fab fa-github
+        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+           자바 숙달 및 소켓 이해를 위한 개인 프로젝트
         description: | # this will include new lines to allow paragraphs
           Description about the work on/with the project
           
           
           
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+  #- title: Experience
+  #  layout: list
+  #  content:
+  #    - layout: right
+  #      title: Company name
+  #      sub_title: Job title
+  #      caption: Date Range (eg. November 2016 - present)
+  #      link: Link to company (optional)
+  #      quote: >
+  #        Short description of the company (optional)
+  #      description: | # this will include new lines to allow paragraphs
+  #        Description of role
+          
+          
+          
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: 스마트웹&콘텐츠개발-자바(JAVA) 웹 개발자(백엔드)
+        sub_title: 이젠아카데미
+        caption: 2022.02. ~ 2022.07.
         quote: >
-          Short institution or course description (optional)
+          성적 최우수상 수상
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+          개발자 환경 구축, 개발 환경 운영 지원, 프로그래밍 언어 활용, 화면 구현, 프로그래밍 언어 응용, 애플리케이션 테스트 수행, 애플리케이션 배포, 응용SW 기초 기술 활용, 데이터 입출력 구현, 통합 구현, 인터페이스 구현, 서버프로그램 구현, 애플리케이션 설계, 화면 설계, 요구사항 확인, 데이터베이스 구현, SQL활용, SQL작성, UI 구현
+  
+  #- title: A Little More About Me
+  #  layout: text
+  #  content: | # this will include new lines to allow paragraphs
+  #    This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  #    Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
