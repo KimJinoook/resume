@@ -66,7 +66,7 @@ content:
     layout: list
     content:
       - layout: left
-        name: Backend
+        title: Backend
         description: | # this will include new lines to allow paragraphs
           * Java, Groovy, NodeJS (TypeScript),
           * Spring Boot, Spring MVC, Spring Batch, Spring Security
@@ -75,7 +75,7 @@ content:
           * Gradle, Maven
           * Eclipse, SpringToolSuite4, Visual Studio Code
       - layout: left
-        name: DevOps
+        title: DevOps
         description: | # this will include new lines to allow paragraphs
           * MySQL, MariaDB, PostgreSQL
           * Jenkins, TravisCI, AWS Code Deploy
@@ -84,7 +84,7 @@ content:
           * Pinpoint, Ngrinder
           * Linux Centos
       - layout: left
-        name: Frontend
+        title: Frontend
         description: | # this will include new lines to allow paragraphs
           * ES6
           * Npm, Grunt, Webpack
