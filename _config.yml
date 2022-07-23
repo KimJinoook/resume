@@ -68,28 +68,18 @@ content:
       - layout: left
         title: Backend
         description: | # this will include new lines to allow paragraphs
-          * Java, Groovy, NodeJS (TypeScript),
-          * Spring Boot, Spring MVC, Spring Batch, Spring Security
-          * TypeORM, JPA, Querydsl, Hibernate
-          * Jest, Supertest, Junit4/5, Mockito, Spock
-          * Gradle, Maven
-          * Eclipse, SpringToolSuite4, Visual Studio Code
+          * Java, MyBatis
+          * Spring Boot, Spring MVC, Spring Security
+          * Maven
       - layout: left
-        title: DevOps
+        title: Database
         description: | # this will include new lines to allow paragraphs
-          * MySQL, MariaDB, PostgreSQL
-          * Jenkins, TravisCI, AWS Code Deploy
-          * AWS Beanstalk, AWS SQS, Elastic Cache (Redis), RDS (Aurora), S3, EC2, Cloud Watch
-          * Nginx, Tomcat
-          * Pinpoint, Ngrinder
-          * Linux Centos
+          * OracleDB
       - layout: left
         title: Frontend
         description: | # this will include new lines to allow paragraphs
-          * ES6
-          * Npm, Grunt, Webpack
-          * Handlebars, Lodash
-          * Backbone          
+          * JavaScript, jQuery
+          * Bootstrap      
           
           
           
@@ -114,7 +104,10 @@ content:
         quote: >
            소상공인의 메타버스 진출을 돕기 위한 크리에이터 - 소상공인 연결 플랫폼
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          * java security, spring security 활용 비밀번호 암호화
+          * Three.js와 ZipLoader 이용, 압축파일 해제 없이 3D모델 로딩
+          * 회원 관리 간 경고 누적수에 따른 접속 차단 기능 구현
+          * Chart.js와 Sheet.js 활용 데이터 관리
           
           
       - layout: left
@@ -135,7 +128,9 @@ content:
         quote: >
            코로나로 위축된 외식산업 활성화를 위한 맛집 리스트 사이트
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          * 웹소켓 이용 접속자 채팅 기능 구현
+          * 맛집 등록 시 주소를 위도경도 자동 변환, 카카오 지도 api 마커 등록
+          * 좋아요, 평점, 리뷰 기능 구현
           
           
       - layout: left
@@ -156,7 +151,9 @@ content:
         quote: >
            자바 숙달 및 소켓 이해를 위한 개인 프로젝트
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          * 계산기 기능 및 시재관리, 결제 수단별 매출 관리
+          * 모바일오더 이용 간 매장별 오픈여부 확인
+          * 매장 선택 주문, 소켓 이용 주문 전달
           
           
           
